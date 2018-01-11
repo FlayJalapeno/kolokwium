@@ -17,7 +17,7 @@ int main()
     cout << "4 - dzielenie" << endl;
     cout << "5 - potegowanie" << endl;
     cout << "6 - silnia" << endl;
-    cout << "0 - WYJSCIE z programu" << endl;
+    cout << "0 - wyjscie z programu" << endl;
     cin >> dzialanie;
      switch(dzialanie)
      {
@@ -63,7 +63,7 @@ int main()
           }
           else
           {
-          cout << "Nie dzieli sie przez 0!" << endl;
+          cout << "Nie dzieli sie przez 0! " << endl;
           cout << endl;
           }
         break;
@@ -84,7 +84,7 @@ int main()
               wynik=wynik*liczba1;
            }
         } 
-        cout << liczba1 << "^" << liczba2 << " = " << wynik << endl;
+        cout << liczba1 << " ^ " << liczba2 << " = " << wynik << endl;
         cout << endl;
         break;
      case(6):
@@ -93,7 +93,7 @@ int main()
        wynik=1;
          for(n=1;n<=liczba1;n++)
          wynik=wynik*n;
-       cout << liczba1 << "! = " << wynik << endl;
+       cout << liczba1 << " != " << wynik << endl;
        cout << endl;
        break;
       default:

@@ -15,16 +15,16 @@ int main ()
 switch (c)   /// dzia³anie 
 {
           case   '+': x=a+b;                                // operacja dodawania   
-                   printf("Wynik to: %d\n", x);
+                   printf("Wynik to::  %d\n", x);
                    break;
           case   '-': x=a-b;                                // operacja odejmowania
-                   printf("Wynik to: %d\n", x);
+                   printf("Wynik to::  %d\n", x);
                    break;
           case   '*': x=a*b;
-                   printf("Wynik to: %d\n", x);             // operacja mno¿enia
+                   printf("Wynik to::  %d\n", x);             // operacja mno¿enia
                    break;
           case   '/': x=a/b;
-                   printf("Wynik to: %d\n", x); 
+                   printf("Wynik to::  %d\n", x); 
 
         if (b==0)  
         {

@@ -1,1 +1,1 @@
-Kornel Prokopowicz
+Kornel Prokopowicz grupa 2a czwartek 15:45
